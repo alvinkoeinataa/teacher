@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px 8%;
+  background: darkslategray;
+  color: white;
+}
+
+.kat h1 {
+  font-size: 40px;
+  text-align: center;
+}
+/* ----------------------movie and kata------------- */
+.gabung2 {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5%;
+}
+
+.sisi1 {
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  padding: 5% 1%;
+}
+
+.sisi1 h1 {
+  font-size: 35px;
+}
+
+.sisi1 p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sisi2 {
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  padding: 0 2%;
+}
+
+.sisi2 img {
+  height: 100%;
+}
+
+.gabung3 {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .gabung2,
+  .gabung3 {
+    margin-top: 10px;
+  }
+  .sisi1 {
+    width: 900px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 963px) {
+  .sisi1 h1 {
+    font-size: 35px;
+  }
+
+  .sisi1 p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sisi1 h1 {
+    font-size: 32px;
+  }
+
+  .sisi1 p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
